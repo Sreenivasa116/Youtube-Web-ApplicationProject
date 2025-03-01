@@ -1,0 +1,44 @@
+
+.div-side-header{
+
+    position: fixed;
+    width: 100px;
+    top: 71px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+    z-index: 100;
+
+}
+
+
+.div-this{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+.div-this:hover{
+
+    background-color: rgb(230, 225, 225);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.div-this img {
+
+    height: 30px;
+    width: 30px;
+}
+
+.div-this div{
+
+    font-size: 13px;
+
+}
